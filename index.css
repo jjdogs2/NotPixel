@@ -1,0 +1,64 @@
+.welcomeBanner{
+    color: black;
+    font-family: arial;
+    text-align: center;
+}
+
+/* Button class for all buttons */
+.button{
+    /* Background Setup */
+    background-color: #13E365; /* Green */
+    /* Border Setup */
+    border-radius: 12px;
+    border-color: transparent;
+    /* Text Setup */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font: Arial;
+    /* Position setup and other */
+    padding: 16px 32px;
+    margin: auto;
+    margin-top:10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+background-color:  #26A658;
+color: white;
+}
+
+/* .civJobs_button {
+    background-color: #13E365;
+    color: white;
+}
+  .civJobs_button:hover {
+    background-color:  #26A658;
+    color: white;
+}
+
+.crimJobs_button {
+    background-color: #13E365;
+    color: white;
+    margin-top: 10px;
+}
+
+.crimJobs_button:hover {
+    background-color: #26A658;
+    color: white;
+}
+
+.whitelistedJobs_button {
+    background-color: #13E365;
+    color: white;
+    margin-top: 10px;
+}
+
+.whitelistedJobs_button:hover {
+    background-color: #26A658;
+    color: white;
+}
